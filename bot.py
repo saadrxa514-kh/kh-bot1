@@ -8,11 +8,10 @@ bot = commands.Bot(command_prefix='-', intents=intents)
 
 @bot.event
 async def on_ready():
-    print(f'تم تسجيل الدخول بنجاح باسم: {bot.user}')
+    print(f'البوت اشتغل وصار أونلاين: {bot.user}')
 
 @bot.command(name='اوامر')
 async def ping(ctx):
-    await ctx.send("البوت شغال ومتصل بنجاح!")
+    await ctx.send("البوت متصل وجاهز!")
 
-# حط التوكن الجديد هنا بدال الكلام اللي بين القوسين
-bot.run('هنا_حط_التوكن_الجديد_بدون_مسافات')
+bot.run('MTU3MTc3OTc3ODU1NjU5NjIyNA.GD2Evc.DegMNmP7PR8ZEGaykLfFyaMa4mPCAy8sZhUVx0')
