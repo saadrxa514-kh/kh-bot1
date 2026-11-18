@@ -14,4 +14,4 @@ async def on_ready():
 async def ping(ctx):
     await ctx.send("البوت متصل وجاهز!")
 
-bot.run('MTU3MTc3OTc3ODU1NjU5NjIyNA.GD2Evc.DegMNmP7PR8ZEGaykLfFyaMa4mPCAy8sZhUVx0')
+bot.run('MTU3MTc3OTc3ODU1NjU5NjIyNA.Gx2ErB.K8-zpU3NlhsVltYWPdklKijgSzJq3MKqnYNS0Q')
